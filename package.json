@@ -1,0 +1,51 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@syncfusion/ej2": "19.2.62",
+    "@syncfusion/ej2-base": "19.2.60",
+    "@syncfusion/ej2-buttons": "19.2.60",
+    "@syncfusion/ej2-calendars": "19.2.62",
+    "@syncfusion/ej2-data": "19.2.60",
+    "@syncfusion/ej2-dropdowns": "19.2.62",
+    "@syncfusion/ej2-heatmap": "19.2.60",
+    "@syncfusion/ej2-inputs": "19.2.60",
+    "@syncfusion/ej2-schedule": "19.2.60",
+    "@types/es6-promise": "0.0.28",
+    "@types/hasher": "0.0.27",
+    "@types/marked": "0.3.0",
+    "@types/moment-timezone": "0.5.30",
+    "@types/signals": "0.0.16",
+    "codemirror": "5.62.3",
+    "core-js": "^3.15.1",
+    "crossroads": "0.12.2",
+    "fuse.js": "3.6.1",
+    "hasher": "1.2.0",
+    "marked": "0.3.19",
+    "moment-timezone": "0.5.33",
+    "nuxt": "^2.15.7",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "^2.3.2"
+  }
+}
