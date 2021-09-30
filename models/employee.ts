@@ -1,4 +1,4 @@
-export interface Employees {
+export interface Employee {
   id: number,
   groupId: number,
   color: string,
